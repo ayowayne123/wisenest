@@ -1,0 +1,15 @@
+@keyframes colorChange {
+  0% {
+    color: black;
+  }
+  50% {
+    color: #e91e63; /* Replace this with your pink color code */
+  }
+  100% {
+    color: black; /* Replace this with your pink color code */
+  }
+}
+
+.text-careAnimation {
+  display: inline-block;
+}
