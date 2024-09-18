@@ -3,13 +3,13 @@ import React from "react";
 const Goal = ({ bg, text, number, title, desc, top }) => {
   return (
     <div
-      className={` lg:px-12 lg:py-16 slg:px-10 slg:py-12 md:py-10 md:px-8 ${bg} slg:gap-[25px] md:gap-5 lg:gap-[40px] flex flex-col ${text} ${top} lg:rounded-[30px] flex-shrink-0`}
+      className={` lg:px-12 lg:py-16  slg:px-10 slg:py-12 md:py-10 md:px-8 ${bg} slg:gap-[25px] md:gap-5 lg:gap-[40px] flex flex-col ${text} ${top} lg:rounded-[30px] flex-shrink-0`}
     >
       <div className="opacity-15 text-[64px] font-bold">{number}</div>
-      <div className="text-[36px] font-bold leading-tight w-[248px] pt-6">
+      <div className="text-[36px] font-bold leading-tight pr-[30px] pt-6">
         {title}
       </div>
-      <p className="w-[315px] text-xl leading-loose text-black">{desc}</p>
+      <p className="pr-[0px] text-xl leading-loose text-black">{desc}</p>
     </div>
   );
 };
@@ -55,7 +55,7 @@ function Goals() {
         </div>
       </div>
 
-      <div className="flex flex-row w-full gap-10 overflow-x-scroll no-scrollbar xl:pl-[100px] lg:pl-[20px] pb-[70px]">
+      <div className="flex flex-row w-full gap-10 overflow-x-scroll no-scrollbar container pr-0  pb-[70px]">
         {goalDetails.map((goal, index) => (
           <div
             key={index}

@@ -5,16 +5,19 @@
 * {
   transition: all 0.3s ease-in-out;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 h2 {
   @apply font-bold lg:text-[64px] lg:leading-[77px] text-center;
 }
 
 .pry-btn {
-  @apply text-white bg-wiseNestPink;
+  @apply text-white bg-wiseNestPink hover:bg-wiseNestBlueGreen;
 }
 .sec-btn {
-  @apply text-black bg-transparent border border-black;
+  @apply text-black bg-transparent border border-black hover:border-wiseNestPink hover:text-wiseNestPink;
 }
 
 .btn-base {

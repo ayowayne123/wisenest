@@ -3,7 +3,10 @@ import Link from "next/link";
 
 function Involved() {
   return (
-    <section className="h-[529px] flex flex-col items-center justify-center bg-wiseNestPinkBg container rounded-[30px] ">
+    <section
+      id="donate"
+      className="h-[529px] flex flex-col items-center justify-center bg-wiseNestPinkBg container rounded-[30px] "
+    >
       <h2>Get Involved</h2>
       <p className="mx-auto leading-loose slg:text-xl lg:w-[1000px] slg:w-[850px] md:w-[650px] text-center my-5">
         Be a part of the change! Whether you want to volunteer your time,

@@ -22,7 +22,7 @@ const MissionCard = ({ icon, name, info, delay }) => {
 
 function Mission() {
   return (
-    <section className="pt-32">
+    <section className="pt-32 bg-missionBg bg-[#FF91CA0D]">
       <div className="container items-center flex flex-col gap-3">
         <h2
           className="lg:text-[48px]  lg:w-[550px] text-center leading-tight"

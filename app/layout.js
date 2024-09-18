@@ -1,12 +1,19 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import "./animations.css";
+import Footer from "./footer";
+import Header from "./header";
 
 const hellix = localFont({
   src: [
     {
       path: "./fonts/Hellix-Regular.woff",
       weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Hellix-SemiBold.woff",
+      weight: "600",
       style: "normal",
     },
     {
@@ -26,7 +33,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${hellix.className} antialiased`}>{children}</body>
+      <body className={`${hellix.className} antialiased`}>
+        <Header />
+        {children}
+
+        <Footer />
+      </body>
     </html>
   );
 }

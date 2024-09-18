@@ -39,6 +39,7 @@ module.exports = {
       },
       backgroundImage: {
         pinkBg: " url('/images/pinkBrush.png')",
+        missionBg: " url('/images/missionBg.png')",
       },
     },
   },
