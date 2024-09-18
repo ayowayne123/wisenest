@@ -41,7 +41,7 @@ function Header() {
         </div>
 
         {/* Navigation */}
-        <nav className="flex flex-row gap-7 items-center">
+        <nav className="md:flex flex-row gap-7 hidden items-center">
           <Link
             href="#contact"
             className="text-lg hover:text-wiseNestBlueGreen hover:underline decoration-2 underline-offset-4 decoration-wiseNestPink  font-semibold"

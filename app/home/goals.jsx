@@ -43,10 +43,12 @@ const goalDetails = [
 function Goals() {
   return (
     <section>
-      <div className="container slg:py-16 lg:py-[70px] md:py-12">
-        <div className="w-full flex justify-between items-start slg:gap-[120px] md:gap-16 lg:gap-[150px] xl:gap-[197px]">
-          <h2 className="leading-none flex flex-shrink-0">Our Goals</h2>
-          <p className="lg:text-xl lg:w-[755px] leading-loose">
+      <div className="container slg:py-16 lg:py-[70px] py-12">
+        <div className="w-full flex md:flex-row flex-col justify-between items-center md:items-start slg:gap-[120px] md:gap-16 lg:gap-[150px] xl:gap-[197px]">
+          <h2 className="leading-none flex flex-shrink-0 md:text-left text-center">
+            Our Goals
+          </h2>
+          <p className="lg:text-xl lg:w-[755px] leading-loose md:text-left text-center">
             Wise Nest is dedicated to creating lasting impact through education,
             empowerment, and collaboration. We aim to raise awareness, provide
             essential support to teenage moms, and foster strong partnerships
@@ -55,7 +57,7 @@ function Goals() {
         </div>
       </div>
 
-      <div className="flex flex-row w-full gap-10 overflow-x-scroll no-scrollbar container pr-0  pb-[70px]">
+      <div className="flex md:flex-row flex-col w-full gap-10 overflow-x-scroll no-scrollbar container md:pr-0  pb-[70px]">
         {goalDetails.map((goal, index) => (
           <div
             key={index}

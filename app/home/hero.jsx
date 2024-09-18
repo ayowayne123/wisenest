@@ -2,16 +2,17 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import mom from "@/public/images/mom-hugging.png";
+import momPhone from "@/public/images/momPhone.png";
 function Hero() {
   return (
     <div className="bg-pinkBg h-screen lg:min-h-[600px] lg:max-h-[900px] bg-cover bg-no-repeat relative pt-20">
-      <div className="container grid slg:grid-cols-2 h-full items-center md:pb-32 pb-0 slg:pb-0">
+      <div className="container grid grid-rows-2  slg:grid-cols-2 h-full items-center md:pb-32 pb-0 slg:pb-0">
         {/* Hero Text */}
         <div className="flex flex-col gap-3">
           <h1
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="lg:text-7xl xl:text-[80px] slg:text-6xl md:text-5xl leading-tight  flex flex-col font-bold"
+            className="lg:text-7xl xl:text-[80px] slg:text-6xl md:text- text-4xl md:text-left text-center leading-tight  flex flex-col font-bold"
           >
             <span>
               A Nest of{" "}
@@ -24,7 +25,7 @@ function Hero() {
             <span>A Future of Hope</span>
           </h1>
           <p
-            className="lg:text-2xl md:text-xl"
+            className="lg:text-2xl md:text-xl md:text-left text-center"
             data-aos="fade-right"
             data-aos-delay="300"
             data-aos-duration="1000"
@@ -38,27 +39,36 @@ function Hero() {
             data-aos-delay="800"
             data-aos-duration="1000"
             href="#"
-            className="pry-btn btn-base mt-5"
+            className="pry-btn btn-base mt-5 md:mx-0 mx-auto"
           >
             Learn More
           </Link>
         </div>
-      </div>
-      {/* mom hugging child image */}
-      <div
-        data-aos="fade-left"
-        className="w-1/2 h-[90%] absolute right-0 bottom-0"
-      >
-        <div className="relative h-full w-full">
-          <Image
-            src={mom}
-            priority
-            fill
-            alt="Mom hugging her child"
-            className="object-contain object-right-bottom "
-          />
+        <div
+          data-aos="fade-left"
+          className="md:w-1/2 md:h-[90%] md:absolute right-0 bottom-0  w-full h-full"
+        >
+          <div className="relative h-full w-full md:flex hidden ">
+            <Image
+              src={mom}
+              priority
+              fill
+              alt="Mom hugging her child"
+              className="object-contain object-right-bottom "
+            />
+          </div>
+          <div className="relative h-full w-full flex md:hidden ">
+            <Image
+              src={momPhone}
+              priority
+              fill
+              alt="Mom hugging her child"
+              className="object-contain object-right-bottom "
+            />
+          </div>
         </div>
       </div>
+      {/* mom hugging child image */}
     </div>
   );
 }
