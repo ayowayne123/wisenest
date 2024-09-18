@@ -15,7 +15,10 @@ function Newsletter() {
     toast.success("You have been added to our Newsletter!");
   };
   return (
-    <section className="container lg:py-[150px]" id="contact">
+    <section
+      className="container slg:py-[100px] lg:py-[150px] md:py-20"
+      id="contact"
+    >
       <div>
         <Toaster />
       </div>
@@ -35,7 +38,7 @@ function Newsletter() {
           placeholder="Enter your email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="px-12 py-5 border-[0.5px] border-black rounded-2xl focus:outline-none lg:w-[640px] "
+          className="px-12 py-5 border-[0.5px] border-black rounded-2xl focus:outline-none lg:w-[640px] slg:w-[550px] md:w-[380px]"
           required
         />
         <button

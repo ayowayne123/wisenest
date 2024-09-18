@@ -5,13 +5,13 @@ import mom from "@/public/images/mom-hugging.png";
 function Hero() {
   return (
     <div className="bg-pinkBg h-screen lg:min-h-[600px] lg:max-h-[900px] bg-cover bg-no-repeat relative pt-20">
-      <div className="container grid slg:grid-cols-2 h-full items-center">
+      <div className="container grid slg:grid-cols-2 h-full items-center md:pb-32 pb-0 slg:pb-0">
         {/* Hero Text */}
         <div className="flex flex-col gap-3">
           <h1
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="lg:text-7xl xl:text-[80px] leading-tight  flex flex-col font-bold"
+            className="lg:text-7xl xl:text-[80px] slg:text-6xl md:text-5xl leading-tight  flex flex-col font-bold"
           >
             <span>
               A Nest of{" "}
@@ -24,7 +24,7 @@ function Hero() {
             <span>A Future of Hope</span>
           </h1>
           <p
-            className="lg:text-2xl"
+            className="lg:text-2xl md:text-xl"
             data-aos="fade-right"
             data-aos-delay="300"
             data-aos-duration="1000"

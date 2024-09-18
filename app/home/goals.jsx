@@ -3,7 +3,7 @@ import React from "react";
 const Goal = ({ bg, text, number, title, desc, top }) => {
   return (
     <div
-      className={` lg:px-12 lg:py-16  slg:px-10 slg:py-12 md:py-10 md:px-8 ${bg} slg:gap-[25px] md:gap-5 lg:gap-[40px] flex flex-col ${text} ${top} lg:rounded-[30px] flex-shrink-0`}
+      className={` lg:px-12 lg:py-16  slg:px-10 slg:py-12 md:py-10 md:px-8 ${bg} slg:gap-[25px] md:gap-5 lg:gap-[40px] flex flex-col ${text} ${top} md:rounded-[30px] flex-shrink-0`}
     >
       <div className="opacity-15 text-[64px] font-bold">{number}</div>
       <div className="text-[36px] font-bold leading-tight pr-[30px] pt-6">
@@ -43,8 +43,8 @@ const goalDetails = [
 function Goals() {
   return (
     <section>
-      <div className="container py-[70px]">
-        <div className="w-full flex justify-between items-start  lg:gap-[150px] xl:gap-[197px]">
+      <div className="container slg:py-16 lg:py-[70px] md:py-12">
+        <div className="w-full flex justify-between items-start slg:gap-[120px] md:gap-16 lg:gap-[150px] xl:gap-[197px]">
           <h2 className="leading-none flex flex-shrink-0">Our Goals</h2>
           <p className="lg:text-xl lg:w-[755px] leading-loose">
             Wise Nest is dedicated to creating lasting impact through education,

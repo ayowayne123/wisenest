@@ -10,7 +10,7 @@ html {
 }
 
 h2 {
-  @apply font-bold lg:text-[64px] lg:leading-[77px] text-center;
+  @apply font-bold lg:text-[64px] lg:leading-[77px] slg:text-[52px] md:text-[40px] leading-tight text-center;
 }
 
 .pry-btn {

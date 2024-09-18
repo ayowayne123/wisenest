@@ -5,9 +5,9 @@ import logoWhite from "@/public/images/logoWhite.png";
 
 function Footer() {
   return (
-    <footer className="h-[500px] bg-black text-white">
-      <div className="container pt-32">
-        <div className="flex flex-row justify-between gap-y-10">
+    <footer className="min-h-[500px] bg-black text-white pb-8">
+      <div className="container pt-20 slg:pt-32">
+        <div className="flex slg:flex-row flex-col justify-between gap-y-10">
           {/* Logo White */}
           <div className="text-2xl font-bold relative w-[320px] h-[60px] ">
             <Link href="/">
@@ -41,7 +41,7 @@ function Footer() {
             </nav>
           </div>
         </div>
-        <div className="border-b border-white w-full mt-24"></div>
+        <div className="border-b border-white w-full mt-16 slg:mt-24"></div>
         <p className="pt-9 text-center">
           © 2024 Wise Nest Foundation. All Rights Reserved.
         </p>
