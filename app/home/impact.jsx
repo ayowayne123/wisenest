@@ -23,7 +23,7 @@ const ImpactPoints = ({ point }) => {
           className="block md:hidden "
         />
       </span>
-      <p className="md:text-base text-sm">{point}</p>
+      <p className="md:text-base text-sm leading-loose">{point}</p>
     </div>
   );
 };
@@ -61,7 +61,7 @@ function Impact() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-center text-white px-6 md:px-0   ">
+        <div className="flex flex-col justify-center text-white px-6 md:px-0  py-6 md:py-0  ">
           <ImpactPoints point="Improve maternal health, reducing child mortality and promoting healthier teenage mothers." />
           <div className=" border-b-[0.5px] border-white md:ml-16"></div>
           <ImpactPoints point="Decrease the prevalence of teenage pregnancies, leading to better health outcomes and increased educational opportunities." />

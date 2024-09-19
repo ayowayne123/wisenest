@@ -26,6 +26,16 @@ const hellix = localFont({
   variable: "--font-hellix",
 });
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  themeColor: "#DE4B99",
+  // Also supported by less commonly used
+  // interactiveWidget: 'resizes-visual',
+};
+
 export const metadata = {
   title: "WiseNest Africa ",
   description: "A Nest of Care, A Future of Hope",
@@ -48,10 +58,6 @@ export const metadata = {
 
   // Additional metadata for SEO
   robots: "index, follow", // Ensures the website is indexed and followed by search engines
-  viewport: "width=device-width, initial-scale=1", // Ensures mobile-friendliness
-  language: "en", // Specifies the language of the website content
-  themeColor: "#DE4B99", // Specifies the theme color, improves mobile experience
-
   googleSiteVerification: "your-google-verification-code", // For verifying your site with Google Search Console
   bingSiteVerification: "your-bing-verification-code", // For verifying your site with Bing Webmaster Tools
 

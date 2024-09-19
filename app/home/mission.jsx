@@ -16,7 +16,7 @@ const MissionCard = ({ icon, name, info, delay }) => {
         <Image src={icon} fill alt="" className="object-contain p-4" />
       </div>
       <h2 className="font-bold lg:text-3xl text-2xl ">{name}</h2>
-      <p className="text-center slg:w-[400px] lg:w-[506px] lg:text-lg">
+      <p className="text-center slg:w-[400px] lg:w-[506px] md:leading-loose text-sm leading-[24px] lg:text-lg md:text-base ">
         {info}
       </p>
     </div>

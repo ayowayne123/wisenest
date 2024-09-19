@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "@/public/images/logo.png";
+import onlyLogo from "@/app/logo.png";
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,9 +33,9 @@ function Header() {
         isScrolled ? "bg-white fixed shadow-md" : "bg-transparent absolute"
       }`}
     >
-      <div className="container mx-auto flex justify-between items-center  h-20">
+      <div className="container mx-auto flex md:justify-between justify-center items-center  h-20">
         {/* Logo */}
-        <div className="text-2xl font-bold relative w-[280px] h-[50px] ">
+        <div className="relative w-[280px] h-[50px] md:flex hidden">
           <Link href="/">
             <Image
               src={logo}
@@ -42,6 +43,13 @@ function Header() {
               fill
               className="object-contain object-left"
             />
+          </Link>
+        </div>
+
+        {/* Logo for mobile */}
+        <div className="relative w-[60px] h-[50px] flex md:hidden">
+          <Link href="/">
+            <Image src={onlyLogo} alt="" fill className="object-contain " />
           </Link>
         </div>
 

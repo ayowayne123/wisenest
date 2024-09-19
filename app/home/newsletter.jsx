@@ -45,7 +45,7 @@ function Newsletter() {
         />
         <button
           type="submit"
-          className="capitalize bg-wiseNestPink flex font-semibold items-center md:text-xl text-sm justify-center text-white rounded-full md:rounded-2xl hover:bg-wiseNestBlueGreen md:w-[184px] md:h-[70px] h-11 w-36"
+          className="capitalize bg-wiseNestPink flex font-semibold items-center md:text-xl text-sm justify-center text-white rounded-full md:rounded-2xl hover:bg-wiseNestBlueGreen md:w-[184px] md:h-[70px] h-11 w-[152px]"
         >
           submit
         </button>

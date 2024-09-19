@@ -21,7 +21,7 @@ h2 {
 }
 
 .btn-base {
-  @apply h-[54px] w-[194px] flex items-center justify-center font-semibold capitalize rounded-[49px];
+  @apply md:h-[54px] md:w-[194px]  h-11 w-[152px] flex items-center justify-center font-semibold capitalize rounded-[49px];
 }
 
 @layer utilities {

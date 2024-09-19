@@ -52,8 +52,8 @@ function Goals() {
           <h2 className="md:leading-none flex flex-shrink-0 md:text-left text-center">
             Our Goals
           </h2>
-          <p className="lg:text-xl lg:w-[755px] md:leading-loose leading-relaxed md:text-left text-center py-6 md:py-0">
-            Wise Nest is dedicated to creating lasting impact through education,
+          <p className="lg:text-xl lg:w-[755px] md:text-base slg:text-lg md:leading-loose  md:text-left text-center py-6 md:py-0  text-sm leading-[24px]">
+            WiseNest is dedicated to creating lasting impact through education,
             empowerment, and collaboration. We aim to raise awareness, provide
             essential support to teenage moms, and foster strong partnerships
             with communities to build a brighter future for young girls.
