@@ -36,7 +36,12 @@ function Header() {
         {/* Logo */}
         <div className="text-2xl font-bold relative w-[280px] h-[50px] ">
           <Link href="/">
-            <Image src={logo} alt="" fill className="object-contain" />
+            <Image
+              src={logo}
+              alt=""
+              fill
+              className="object-contain object-left"
+            />
           </Link>
         </div>
 
