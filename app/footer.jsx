@@ -26,7 +26,10 @@ function Footer() {
               Email: wisenestafrica@gmail.com
             </Link>
             <nav className=" flex flex-row justify-between md:justify-start md:gap-6 slg:gap-10 mt-10">
-              <Link className="hover:text-sky-700" href="https://linkedin.com">
+              <Link
+                className="hover:text-sky-700"
+                href="https://www.linkedin.com/company/wisenestafrica/"
+              >
                 Linkedin
               </Link>
               <Link className="hover:text-sky-400" href="https://Twitter.com">
@@ -34,11 +37,14 @@ function Footer() {
               </Link>
               <Link
                 className="hover:text-pink-700"
-                href="https://Instagram.com"
+                href="https://www.instagram.com/wisenestafrica?igsh=Z2c1cnN0MDc4YjRs"
               >
                 Instagram
               </Link>
-              <Link className="hover:text-slate-800" href="https://Medium.com">
+              <Link
+                className="hover:text-slate-800"
+                href="https://medium.com/@wisenestafrica"
+              >
                 Medium
               </Link>
             </nav>

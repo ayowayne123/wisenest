@@ -43,7 +43,7 @@ export const metadata = {
     "WiseNest Africa,WiseNest, teenage pregnancy in Africa, teenage moms, teenage pregnancy, support for teenage mothers, education for young mothers, healthcare for teenage moms, empowerment, financial independence, Africa, women empowerement",
   author: "Ayomide Wayne",
   openGraph: {
-    title: "WiseNest Africa - A Nest of Care, A Future of Hope",
+    title: "WiseNest Africa",
     description:
       "WiseNest Africa empowers teenage moms by providing education, healthcare, and the support they need for a future of dignity and independence.",
     url: "http://www.wisenestafrica.com/",

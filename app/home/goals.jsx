@@ -1,8 +1,11 @@
 import React from "react";
 
-const Goal = ({ bg, text, number, title, desc, top }) => {
+const Goal = ({ bg, text, number, title, desc, top, delay }) => {
   return (
     <div
+      data-aos="fade-left"
+      data-aos-once="true"
+      data-aos-delay={delay}
       className={` lg:px-12 lg:py-16 px-11 py-[56px]   slg:px-10 slg:py-12 md:py-12 md:px-8 ${bg} slg:gap-[25px] md:gap-6 lg:gap-[40px] gap-8 flex flex-col ${text} ${top} rounded-[30px] flex-shrink-0`}
     >
       <div className="opacity-15 slg:text-[64px] md:text-[56px] text-[40px] font-bold">
@@ -24,6 +27,7 @@ const goalDetails = [
     text: "text-wiseNestPink",
     top: "mt-[0]",
     number: "01",
+    delay: "0",
     title: "Sensitization & Education",
     desc: "Raise awareness among young people (ages 8-19) about the challenges and consequences of unplanned pregnancies.",
   },
@@ -32,6 +36,7 @@ const goalDetails = [
     text: "text-wiseNestBlue",
     number: "02",
     top: "slg:mt-[70px] md:mt-[40px]",
+    delay: "300",
     title: "Support & Empowerment",
     desc: "Provide teenage moms with antenatal and post-natal care, education, and vocational training to secure their financial independence.",
   },
@@ -40,6 +45,7 @@ const goalDetails = [
     text: "text-wiseNestOrange",
     top: "slg:mt-[140px] md:mt-[80px]",
     number: "03",
+    delay: "600",
     title: "Advocacy & Collaboration",
     desc: "Work with schools, parents, teachers, and communities to create a supportive ecosystem and advocate for better reproductive health education.",
   },
@@ -53,10 +59,11 @@ function Goals() {
             Our Goals
           </h2>
           <p className="lg:text-xl lg:w-[755px] md:text-base slg:text-lg md:leading-loose  md:text-left text-center py-6 md:py-0  text-sm leading-[24px]">
-            WiseNest Africa is dedicated to creating lasting impact through education,
-            empowerment, and collaboration. We aim to raise awareness, provide
-            essential support to teenage moms, and foster strong partnerships
-            with communities to build a brighter future for young girls.
+            WiseNest Africa is dedicated to creating lasting impact through
+            education, empowerment, and collaboration. We aim to raise
+            awareness, provide essential support to teenage moms, and foster
+            strong partnerships with communities to build a brighter future for
+            young girls.
           </p>
         </div>
       </div>
@@ -70,6 +77,7 @@ function Goals() {
               title={goal.title}
               number={goal.number}
               desc={goal.desc}
+              delay={goal.delay}
             />
           </div>
         ))}

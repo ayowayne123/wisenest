@@ -19,6 +19,7 @@ function Involved() {
         <Link
           data-aos="flip-down"
           data-aos-duration="1000"
+          data-aos-once="true"
           href="#"
           className=" btn-base sec-btn "
         >
@@ -27,6 +28,7 @@ function Involved() {
         <Link
           data-aos="flip-down"
           data-aos-duration="1000"
+          data-aos-once="true"
           href="#"
           className="pry-btn btn-base "
         >
