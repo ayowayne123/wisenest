@@ -59,6 +59,7 @@ export const metadata = {
 
   // Additional metadata for SEO
   robots: "index, follow", // Ensures the website is indexed and followed by search engines
+  verification: { google: "Qn-f2eEhSDcFgpvnF4ShbJ0ijK4CCKIzeIGzi70nk7c" },
   googleSiteVerification: "Qn-f2eEhSDcFgpvnF4ShbJ0ijK4CCKIzeIGzi70nk7c", // For verifying your site with Google Search Console
   bingSiteVerification: "your-bing-verification-code", // For verifying your site with Bing Webmaster Tools
 
