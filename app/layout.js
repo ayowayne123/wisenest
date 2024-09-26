@@ -37,13 +37,14 @@ export const viewport = {
 };
 
 export const metadata = {
-  title: "WiseNest Africa ",
-  description: "A Nest of Care, A Future of Hope",
+  title: "WiseNest Africa | A Nest of Care, A Future of Hope ",
+  description:
+    "WiseNest Africa empowers teenage moms by providing education, healthcare, and the support they need for a future of dignity and independence.",
   keywords:
     "WiseNest Africa,WiseNest, teenage pregnancy in Africa, teenage moms, teenage pregnancy, support for teenage mothers, education for young mothers, healthcare for teenage moms, empowerment, financial independence, Africa, women empowerement",
   author: "Ayomide Wayne",
   openGraph: {
-    title: "WiseNest Africa",
+    title: "WiseNest Africa | A Nest of Care, A Future of Hope",
     description:
       "WiseNest Africa empowers teenage moms by providing education, healthcare, and the support they need for a future of dignity and independence.",
     url: "http://www.wisenestafrica.com/",
@@ -58,12 +59,12 @@ export const metadata = {
 
   // Additional metadata for SEO
   robots: "index, follow", // Ensures the website is indexed and followed by search engines
-  googleSiteVerification: "your-google-verification-code", // For verifying your site with Google Search Console
+  googleSiteVerification: "Qn-f2eEhSDcFgpvnF4ShbJ0ijK4CCKIzeIGzi70nk7c", // For verifying your site with Google Search Console
   bingSiteVerification: "your-bing-verification-code", // For verifying your site with Bing Webmaster Tools
 
   structuredData: {
     "@context": "https://schema.com",
-    "@type": "comanization",
+    "@type": "Organization",
     name: "WiseNest Africa",
     url: "http://www.wisenestafrica.com/",
     logo: logo,
